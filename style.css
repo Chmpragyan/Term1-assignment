@@ -281,6 +281,62 @@ input[type=submit]{
      }
 }
 
+/*--------------cv page-----------*/
+.top-row{
+	box-shadow: 5px 4px 3px 3px rgba(0, 0, 0, 0.6);
+	margin: 20px;
+    column-count: 3;
+    border-top: 1px solid black;
+    color: white;
+}
+.top-row img{
+	width: 300px;
+	height: 300px;
+    border: 1px solid black;
+    padding: 2px;
+    background-color: white;
+    border-radius: 50%
+}
+.top-row img:hover{
+	transform: translate(4px);
+	transition: transform 0.5s;
+    opacity: 0.9;
+}
+#user-name{
+	font-size: 35px; 
+}
+#user-address{
+	top: 50px;
+	position: relative;
+}
+.top-row a{
+	color: white;
+}
+.second-row{
+	color: white;
+	column-count: 3;
+	margin: 20px;
+	border: 1px solid black;
+    box-shadow: 5px 4px 3px 3px rgba(0, 0, 0, 0.6);
+    padding: 10px;
+}
+/*responsive for cv page*/
+@media screen and (max-width: 600px){
+	.top-row{
+		column-count: 1;
+	}
+	.top-row img{
+        left: 0;
+	}
+	#user-image{
+		width: 300px;
+		height: 300px;
+	}
+	.second-row{
+		column-count: 1;
+	}
+}
+
 /*footer*/
 footer{
 	background: #131010db;
