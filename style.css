@@ -337,6 +337,133 @@ input[type=submit]{
 	}
 }
 
+/*CSS for site report*/
+#cover-page{
+	color: white;
+	margin-bottom: 50px;
+	text-align: center;
+	font-size: 20px;
+	width: 100%;
+}
+.submit{
+	margin: 50px 0px;
+}
+.content{
+	margin: 50px 100px;
+	text-align: center;
+}
+.content a{
+	color: white;
+	text-decoration: none;
+}
+.report{
+	width: 100%;
+	color: white;
+	text-align: center;
+}
+#declare{
+	column-count: 2;
+	column-rule-style: solid;
+	margin: 30px 50px;
+}
+.sign{
+    margin-bottom: 50px;
+}
+#acknowledge{
+	column-count: 2;
+	column-rule-style: solid;
+	margin: 50px 50px;
+}
+.content{
+	margin-bottom: 50px 50px;
+	text-align: left;
+}
+#informal-talk{
+	column-count: 2;
+	column-rule-style: solid;
+	margin: 50px 50px;	
+}
+#design-decision{
+	column-count: 2;
+	column-rule-style: solid;
+	margin: 50px 50px;
+}
+/*css for progress images and document changes*/
+#row-changes{
+	display: flex;
+	flex-direction: row;
+	margin: 50px 50px;
+	padding: 2px;
+}
+#row-changes img{
+	width: 350px;
+	height: 350px;
+}
+.image{
+	color: white;
+	border: 1px solid black;
+	box-shadow: 5px 4px 3px 3px rgba(0, 0, 0, 0.6);
+
+}
+.image:hover{
+	background-color: black;
+	transform: scale(1.1);
+    transition: transform 2s;
+    overflow: hidden;
+    cursor: pointer;
+}
+#row2-changes{
+	display: flex;
+	flex-direction: row;
+	text-align: center;
+	margin: 50px 50px;
+}
+#row2-changes img{
+	width: 350px;
+	height: 350px;
+}
+/*css for validation report of different pages*/
+#validation-row1{
+	display: flex;
+	flex-direction: row;
+	margin: 50px 50px;
+}
+#validation-row2{
+	display: flex;
+	flex-direction: row;
+	margin: 50px 50px;
+}
+.validate{
+	border: 1px solid black;
+	box-shadow: 5px 4px 3px 3px rgba(0, 0, 0, 0.6);
+	padding: 2px;
+}
+.validate img{
+    width: 350px;
+    height: 350px;
+}
+#reference{
+	margin: 50px 50px;
+}
+@media screen and (max-width: 600px){
+    #row-changes{
+    	display: flex;
+    	flex-direction: column;
+    }
+    #row2-changes{
+    	display: flex;
+    	flex-direction: column;
+    }
+    #validation-row1{
+    	display: flex;
+    	flex-direction: column;
+    }
+    #validation-row2{
+    	display: flex;
+    	flex-direction: column;
+    }
+}
+
 /*footer*/
 footer{
 	background: #131010db;
